@@ -106,6 +106,12 @@ section button:hover {
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
+.item-alinhamento{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
 .descricao-meta {
     color: #45474B;
     margin: 0.5rem 0;
@@ -114,6 +120,10 @@ section button:hover {
 
 td {
     padding: 0 15px;
+}
+
+td .menor {
+    
 }
 
 #Utopia {
