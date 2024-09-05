@@ -61,7 +61,7 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #30475E;
+    background-color: #5C3317;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -109,7 +109,7 @@ section button:hover {
 .item-alinhamento{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 3px;
 }
 
 .descricao-meta {
@@ -122,8 +122,8 @@ td {
     padding: 0 15px;
 }
 
-td .menor {
-    
+.menor {
+    font-size: 0.85rem;
 }
 
 #Utopia {
@@ -142,12 +142,19 @@ td .menor {
     color: black;
 }
 
+#DBR {
+    background-image: linear-gradient(to right, #BAC2C5, #A9B6BF, #6997BF, #064073);
+}
+
+#DBR h2, #DBR .descricao-meta {
+    color: black;
+}
+
 /* Estiliza o rodapé da página */
 footer {
     background-color: #D2B48C;
     color: #45474B;
     text-align: center;
-    padding: 0;
     width: 100%;
     position: absolute;
     bottom: 0;
