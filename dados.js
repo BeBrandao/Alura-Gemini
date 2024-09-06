@@ -1,33 +1,20 @@
 let dados = [
     {
         titulo: "Utopia",
-        musicas: [],
-        imagem: "Utopia.jpg"
+        musicas: ["HYENA", "MELTDOWN", "PARASAIL", "THANKGOD", "FE!N", "SKITZO", "MODERN JAM", "DELRESTO(ECHOES)", "LOST FOREVER", "MY EYES", "I KNOW?", "LOOOVE", "GOD'S COUNTRY", "TOPIA TWINS", "K-POP", "SIRENS", "CIRCUS MAXIMUS", "TIL FURTHER NOTICE"],
+        imagem: "Utopia.jpg",
+        id: "Utopia"
     },
     {
         titulo: "Astroworld",
-        musicas: [],
-        imagem: "astroworld.jpg"
+        musicas: ["STARGAZING", "SKELETONS", "WHO?WHAT", "CAROUSEL", "WAKE UP", "BUTTERFLY EFFECT", "SICKO MODE", "5% TINT", "HOUSTONFORNICATION", "R.I.P. SCREW", "NC-17", "COFFEE BEAN", "STOP TRYING TO BE GOD", "ASTROTHUNDER", "NO BYSTANDERS", "CAN'T SAY", "", ""],
+        imagem: "astroworld.jpg",
+        id: "Astroworld"
     },
     {
         titulo: "DBR",
-        musicas: [],
-        imagem: "Days-Before-Rodeo.jpg"
+        musicas: ["Days Before Rodeo: The Prayer", "Zombies", "Mamacita", "Sloppy Toppy", "Quintana Pt.2", "Basement Freestyle", "Drugs You Should Try It", "Backyard", "Don't Play", "Grey", "Skyfall", "BACC", "", "", "", "", "", ""],
+        imagem: "Days-Before-Rodeo.jpg",
+        id: "DBR"
     }
 ];
-
-// Acessa todos os elementos td presentes na table
-const tdMusicas = document.querySelectorAll('.descricao-meta td');
-
-// Intera cada elemento td
-for (let i = 0; i < tdMusicas.length; i++) {
-    const td = tdMusicas[i];
-    const musicaNome = td.textContent;
-
-    // Determina o index do objeto do dicionario baseado no parent element ID da table
-    const tituloAlbum = td.closest('.item-resultado');
-    const index = dados.findIndex(album => album.titulo === tituloAlbum.id);
-
-    // Adiciona os nomes das musicas nos correspondentes objetos do dicionario na musicas array
-    dados[index].musicas.push(musicaNome);
-}
