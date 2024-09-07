@@ -1,5 +1,7 @@
 ## Sobre o Projeto
 
+## Busca de Álbuns e Músicas Travis Scott - Imerssão Dev com Google Gemini
+
 **O que é?**
 
 Essa é uma simples página web que serve como um catálogo online da discografia do rapper Travis Scott. Ela permite que você pesquise por álbuns ou músicas específicas, retornando informações detalhadas como capa, lista de faixas e tags relacionadas.
@@ -29,6 +31,3 @@ Essa é uma simples página web que serve como um catálogo online da discografi
 2. **Abrir os arquivos:** Abra o arquivo `index.html` em um navegador web.
 3. **Pesquisar:** Digite o nome de um álbum ou música no campo de pesquisa e clique em "Pesquisar".
 
-### Finalização
-
-  Este é um projeto simples de uma página web que funciona como um catálogo online da discografia do Travis Scott. Você pode pesquisar por álbuns ou músicas e ver os resultados
