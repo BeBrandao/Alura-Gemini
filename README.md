@@ -31,4 +31,4 @@ Essa é uma simples página web que serve como um catálogo online da discografi
 
 ### Finalização
 
-Este é um projeto simples de uma página web que funciona como um catálogo online da discografia do Travis Scott. Você pode pesquisar por álbuns ou músicas e ver os resultados
+  Este é um projeto simples de uma página web que funciona como um catálogo online da discografia do Travis Scott. Você pode pesquisar por álbuns ou músicas e ver os resultados
