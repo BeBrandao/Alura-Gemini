@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
     height: auto;
     margin: 0;
     padding: 0;
@@ -38,6 +39,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
+    font-family: "Pirata One", system-ui;
     width: 30rem;
     border: none;
     padding: 1rem;
@@ -50,6 +52,7 @@ section input {
 
 /* Estiliza os botões dentro das seções */
 section button {
+    font-family: "Pirata One", system-ui;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 1.5rem;
@@ -68,7 +71,7 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem;
-    height: 46vh;
+    height: auto; /*mudei de 46vh para auto para tirar a limitacao */
     overflow-y: auto;
     margin-top: 1rem;
     padding: 1rem;
@@ -156,10 +159,15 @@ footer {
     color: #45474B;
     text-align: center;
     width: 100%;
-    position: absolute;
+    height: 3%;
+    position: fixed;
     bottom: 0;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 @media (max-width: 768px) {
     h1 {
